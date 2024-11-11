@@ -4,11 +4,11 @@
     "slug": "TelApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://img.freepik.com/premium-vector/family-feedback-icon-vector-image-can-be-used-customer-feedback_120816-164746.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "https://www.pixelstalk.net/wp-content/uploads/images6/3D-Phone-HD-Wallpaper-Free-download.jpg",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "ios": {
@@ -18,10 +18,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.reactgamal.TelApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "017e33c9-aeed-43b7-bf67-59df54f127bf"
+      }
+    },
+    "owner": "reactgamal",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/017e33c9-aeed-43b7-bf67-59df54f127bf"
     }
   }
 }
